@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA6C6BE41BD0F46D00A6F3A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6C6BE31BD0F46D00A6F3A8 /* main.m */; };
+		BA6C6BE71BD0F46D00A6F3A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6C6BE61BD0F46D00A6F3A8 /* AppDelegate.m */; };
+		BA6C6BEA1BD0F46D00A6F3A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6C6BE91BD0F46D00A6F3A8 /* ViewController.m */; };
+		BA6C6BED1BD0F46D00A6F3A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA6C6BEB1BD0F46D00A6F3A8 /* Main.storyboard */; };
+		BA6C6BEF1BD0F46D00A6F3A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA6C6BEE1BD0F46D00A6F3A8 /* Images.xcassets */; };
+		BA6C6BF21BD0F46D00A6F3A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA6C6BF01BD0F46D00A6F3A8 /* LaunchScreen.xib */; };
+		BA6C6BFE1BD0F46D00A6F3A8 /* YLAnimationLearnTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6C6BFD1BD0F46D00A6F3A8 /* YLAnimationLearnTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA6C6BF81BD0F46D00A6F3A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA6C6BD61BD0F46D00A6F3A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA6C6BDD1BD0F46D00A6F3A8;
+			remoteInfo = YLAnimationLearn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA6C6BDE1BD0F46D00A6F3A8 /* YLAnimationLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLAnimationLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6C6BE21BD0F46D00A6F3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6C6BE31BD0F46D00A6F3A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BA6C6BE51BD0F46D00A6F3A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BA6C6BE61BD0F46D00A6F3A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BA6C6BE81BD0F46D00A6F3A8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BA6C6BE91BD0F46D00A6F3A8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BA6C6BEC1BD0F46D00A6F3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA6C6BEE1BD0F46D00A6F3A8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BA6C6BF11BD0F46D00A6F3A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BA6C6BF71BD0F46D00A6F3A8 /* YLAnimationLearnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLAnimationLearnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6C6BFC1BD0F46D00A6F3A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA6C6BFD1BD0F46D00A6F3A8 /* YLAnimationLearnTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLAnimationLearnTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA6C6BDB1BD0F46D00A6F3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6C6BF41BD0F46D00A6F3A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA6C6BD51BD0F46D00A6F3A8 = {
+			isa = PBXGroup;
+			children = (
+				BA6C6BE01BD0F46D00A6F3A8 /* YLAnimationLearn */,
+				BA6C6BFA1BD0F46D00A6F3A8 /* YLAnimationLearnTests */,
+				BA6C6BDF1BD0F46D00A6F3A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA6C6BDF1BD0F46D00A6F3A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA6C6BDE1BD0F46D00A6F3A8 /* YLAnimationLearn.app */,
+				BA6C6BF71BD0F46D00A6F3A8 /* YLAnimationLearnTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA6C6BE01BD0F46D00A6F3A8 /* YLAnimationLearn */ = {
+			isa = PBXGroup;
+			children = (
+				BA6C6BE51BD0F46D00A6F3A8 /* AppDelegate.h */,
+				BA6C6BE61BD0F46D00A6F3A8 /* AppDelegate.m */,
+				BA6C6BE81BD0F46D00A6F3A8 /* ViewController.h */,
+				BA6C6BE91BD0F46D00A6F3A8 /* ViewController.m */,
+				BA6C6BEB1BD0F46D00A6F3A8 /* Main.storyboard */,
+				BA6C6BEE1BD0F46D00A6F3A8 /* Images.xcassets */,
+				BA6C6BF01BD0F46D00A6F3A8 /* LaunchScreen.xib */,
+				BA6C6BE11BD0F46D00A6F3A8 /* Supporting Files */,
+			);
+			path = YLAnimationLearn;
+			sourceTree = "<group>";
+		};
+		BA6C6BE11BD0F46D00A6F3A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA6C6BE21BD0F46D00A6F3A8 /* Info.plist */,
+				BA6C6BE31BD0F46D00A6F3A8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA6C6BFA1BD0F46D00A6F3A8 /* YLAnimationLearnTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA6C6BFD1BD0F46D00A6F3A8 /* YLAnimationLearnTests.m */,
+				BA6C6BFB1BD0F46D00A6F3A8 /* Supporting Files */,
+			);
+			path = YLAnimationLearnTests;
+			sourceTree = "<group>";
+		};
+		BA6C6BFB1BD0F46D00A6F3A8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA6C6BFC1BD0F46D00A6F3A8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA6C6BDD1BD0F46D00A6F3A8 /* YLAnimationLearn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6C6C011BD0F46D00A6F3A8 /* Build configuration list for PBXNativeTarget "YLAnimationLearn" */;
+			buildPhases = (
+				BA6C6BDA1BD0F46D00A6F3A8 /* Sources */,
+				BA6C6BDB1BD0F46D00A6F3A8 /* Frameworks */,
+				BA6C6BDC1BD0F46D00A6F3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLAnimationLearn;
+			productName = YLAnimationLearn;
+			productReference = BA6C6BDE1BD0F46D00A6F3A8 /* YLAnimationLearn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA6C6BF61BD0F46D00A6F3A8 /* YLAnimationLearnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6C6C041BD0F46D00A6F3A8 /* Build configuration list for PBXNativeTarget "YLAnimationLearnTests" */;
+			buildPhases = (
+				BA6C6BF31BD0F46D00A6F3A8 /* Sources */,
+				BA6C6BF41BD0F46D00A6F3A8 /* Frameworks */,
+				BA6C6BF51BD0F46D00A6F3A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA6C6BF91BD0F46D00A6F3A8 /* PBXTargetDependency */,
+			);
+			name = YLAnimationLearnTests;
+			productName = YLAnimationLearnTests;
+			productReference = BA6C6BF71BD0F46D00A6F3A8 /* YLAnimationLearnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA6C6BD61BD0F46D00A6F3A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = xuanlin.zhu;
+				TargetAttributes = {
+					BA6C6BDD1BD0F46D00A6F3A8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BA6C6BF61BD0F46D00A6F3A8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BA6C6BDD1BD0F46D00A6F3A8;
+					};
+				};
+			};
+			buildConfigurationList = BA6C6BD91BD0F46D00A6F3A8 /* Build configuration list for PBXProject "YLAnimationLearn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA6C6BD51BD0F46D00A6F3A8;
+			productRefGroup = BA6C6BDF1BD0F46D00A6F3A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA6C6BDD1BD0F46D00A6F3A8 /* YLAnimationLearn */,
+				BA6C6BF61BD0F46D00A6F3A8 /* YLAnimationLearnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA6C6BDC1BD0F46D00A6F3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6C6BED1BD0F46D00A6F3A8 /* Main.storyboard in Resources */,
+				BA6C6BF21BD0F46D00A6F3A8 /* LaunchScreen.xib in Resources */,
+				BA6C6BEF1BD0F46D00A6F3A8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6C6BF51BD0F46D00A6F3A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA6C6BDA1BD0F46D00A6F3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6C6BEA1BD0F46D00A6F3A8 /* ViewController.m in Sources */,
+				BA6C6BE71BD0F46D00A6F3A8 /* AppDelegate.m in Sources */,
+				BA6C6BE41BD0F46D00A6F3A8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA6C6BF31BD0F46D00A6F3A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA6C6BFE1BD0F46D00A6F3A8 /* YLAnimationLearnTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA6C6BF91BD0F46D00A6F3A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA6C6BDD1BD0F46D00A6F3A8 /* YLAnimationLearn */;
+			targetProxy = BA6C6BF81BD0F46D00A6F3A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA6C6BEB1BD0F46D00A6F3A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA6C6BEC1BD0F46D00A6F3A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA6C6BF01BD0F46D00A6F3A8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA6C6BF11BD0F46D00A6F3A8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA6C6BFF1BD0F46D00A6F3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BA6C6C001BD0F46D00A6F3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA6C6C021BD0F46D00A6F3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLAnimationLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA6C6C031BD0F46D00A6F3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YLAnimationLearn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA6C6C051BD0F46D00A6F3A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YLAnimationLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLAnimationLearn.app/YLAnimationLearn";
+			};
+			name = Debug;
+		};
+		BA6C6C061BD0F46D00A6F3A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YLAnimationLearnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLAnimationLearn.app/YLAnimationLearn";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA6C6BD91BD0F46D00A6F3A8 /* Build configuration list for PBXProject "YLAnimationLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6C6BFF1BD0F46D00A6F3A8 /* Debug */,
+				BA6C6C001BD0F46D00A6F3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6C6C011BD0F46D00A6F3A8 /* Build configuration list for PBXNativeTarget "YLAnimationLearn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6C6C021BD0F46D00A6F3A8 /* Debug */,
+				BA6C6C031BD0F46D00A6F3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA6C6C041BD0F46D00A6F3A8 /* Build configuration list for PBXNativeTarget "YLAnimationLearnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA6C6C051BD0F46D00A6F3A8 /* Debug */,
+				BA6C6C061BD0F46D00A6F3A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA6C6BD61BD0F46D00A6F3A8 /* Project object */;
+}
