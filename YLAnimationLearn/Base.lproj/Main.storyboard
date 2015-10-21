@@ -174,7 +174,6 @@
                         <segue destination="04z-5K-O55" kind="relationship" relationship="viewControllers" id="weK-ck-JJH"/>
                         <segue destination="1nL-ho-gCP" kind="relationship" relationship="viewControllers" id="BVC-zf-m1Y"/>
                         <segue destination="UYR-6f-1p5" kind="relationship" relationship="viewControllers" id="J4i-CH-0bY"/>
-                        <segue destination="Goo-es-9LU" kind="relationship" relationship="viewControllers" id="EeR-It-hkc"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="quZ-OM-c9O" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -215,23 +214,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="StZ-XQ-emB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1147" y="1453"/>
-        </scene>
-        <!--Item-->
-        <scene sceneID="DM2-OA-lb7">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Goo-es-9LU" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="6Uz-FQ-trX"/>
-                    <toolbarItems/>
-                    <navigationItem key="navigationItem" id="yxu-e8-D8t"/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DNa-F0-viJ">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="d2T-3D-EZm" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1147" y="2154"/>
         </scene>
     </scenes>
 </document>
