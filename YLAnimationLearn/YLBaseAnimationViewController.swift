@@ -19,7 +19,7 @@ class YLBaseAnimationViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         
-        self.redView.frame.origin.x -= 100.0;
+        self.redView.frame.origin.x = -100.0;
     }
     
     override func viewWillAppear(animated: Bool) {

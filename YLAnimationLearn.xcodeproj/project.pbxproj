@@ -10,7 +10,6 @@
 		BA5525541BDF125B002BB8CE /* YLAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5525521BDF125B002BB8CE /* YLAnimationViewController.swift */; };
 		BA5525551BDF125B002BB8CE /* YLAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5525531BDF125B002BB8CE /* YLAnimationViewController.xib */; };
 		BA5525581BDF12C3002BB8CE /* YLBaseAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5525561BDF12C3002BB8CE /* YLBaseAnimationViewController.swift */; };
-		BA5525591BDF12C3002BB8CE /* YLBaseAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA5525571BDF12C3002BB8CE /* YLBaseAnimationViewController.xib */; };
 		BA55255C1BDF12F2002BB8CE /* YLSpringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA55255A1BDF12F2002BB8CE /* YLSpringViewController.swift */; };
 		BA55255D1BDF12F2002BB8CE /* YLSpringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA55255B1BDF12F2002BB8CE /* YLSpringViewController.xib */; };
 		BA6C6BE41BD0F46D00A6F3A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BA6C6BE31BD0F46D00A6F3A8 /* main.m */; };
@@ -37,7 +36,6 @@
 		BA5525521BDF125B002BB8CE /* YLAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLAnimationViewController.swift; sourceTree = "<group>"; };
 		BA5525531BDF125B002BB8CE /* YLAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLAnimationViewController.xib; sourceTree = "<group>"; };
 		BA5525561BDF12C3002BB8CE /* YLBaseAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLBaseAnimationViewController.swift; sourceTree = "<group>"; };
-		BA5525571BDF12C3002BB8CE /* YLBaseAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLBaseAnimationViewController.xib; sourceTree = "<group>"; };
 		BA55255A1BDF12F2002BB8CE /* YLSpringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YLSpringViewController.swift; sourceTree = "<group>"; };
 		BA55255B1BDF12F2002BB8CE /* YLSpringViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YLSpringViewController.xib; sourceTree = "<group>"; };
 		BA6C6BDE1BD0F46D00A6F3A8 /* YLAnimationLearn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLAnimationLearn.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,7 +104,6 @@
 				BA5525531BDF125B002BB8CE /* YLAnimationViewController.xib */,
 				BA5525511BDF125B002BB8CE /* YLAnimationLearn-Bridging-Header.h */,
 				BA5525561BDF12C3002BB8CE /* YLBaseAnimationViewController.swift */,
-				BA5525571BDF12C3002BB8CE /* YLBaseAnimationViewController.xib */,
 				BA55255A1BDF12F2002BB8CE /* YLSpringViewController.swift */,
 				BA55255B1BDF12F2002BB8CE /* YLSpringViewController.xib */,
 			);
@@ -223,7 +220,6 @@
 				BA6C6BED1BD0F46D00A6F3A8 /* Main.storyboard in Resources */,
 				BA6C6BF21BD0F46D00A6F3A8 /* LaunchScreen.xib in Resources */,
 				BA55255D1BDF12F2002BB8CE /* YLSpringViewController.xib in Resources */,
-				BA5525591BDF12C3002BB8CE /* YLBaseAnimationViewController.xib in Resources */,
 				BA5525551BDF125B002BB8CE /* YLAnimationViewController.xib in Resources */,
 				BA6C6BEF1BD0F46D00A6F3A8 /* Images.xcassets in Resources */,
 			);
